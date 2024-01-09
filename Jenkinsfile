@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'docker.desaysv.com/ici2/tools/node:6-alpine'
+            image 'docker.desaysv.com/ici2/tools/node:20230109-latest'
             args '-p 3000:3000 -p 5000:5000' 
         }
     }
